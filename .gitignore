@@ -1,0 +1,17 @@
+# Data must never be committed (advertiser cost/revenue)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+data/
+output/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
